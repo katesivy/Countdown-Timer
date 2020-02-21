@@ -1,5 +1,3 @@
-
-
 function displayTimer() {
   let now = new Date().getTime();
   let end = new Date("Feb 24, 2020 8:00:00").getTime();
@@ -13,7 +11,7 @@ function displayTimer() {
     const x = document.getElementById('timer');
     if (timerAmount > 0) {
     x.textContent = `Days ${days} : Hours ${hours} : Minutes ${minutes} : Seconds ${seconds}`;
-    } else x.textContent = '';
+    } else x.textContent = 'BOOTCAMP HAS STARTED!';
   }
 
 displayTimer();
